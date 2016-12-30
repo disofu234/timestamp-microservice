@@ -28,4 +28,4 @@ app.get("/:id", function(req, res){
     res.json(json);
 });
 
-app.listen(80);
+app.listen(process.env.PORT);
